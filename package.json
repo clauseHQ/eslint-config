@@ -1,6 +1,6 @@
 {
   "name": "@clausehq/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reuseable eslint config for Clause Node.js projects",
   "main": "index.js",
   "repository": {
@@ -13,12 +13,12 @@
   },
   "homepage": "https://github.com/clauseHQ/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^4.18.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-loopback": "^8.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jest": "^21.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint": ">4.18.1",
+    "eslint-config-airbnb": ">16.1.0",
+    "eslint-config-loopback": ">8.0.0",
+    "eslint-plugin-import": ">2.9.0",
+    "eslint-plugin-jest": ">21.7.0",
+    "eslint-plugin-jsx-a11y": ">6.0.3",
+    "eslint-plugin-react": ">7.9.1"
   }
 }
