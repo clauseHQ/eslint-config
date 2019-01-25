@@ -15,6 +15,16 @@ Create a file in the root of your repo called `.eslintrc` with the contents
 }
 ```
 
+Although for serverless functions, where logs are aggregated directly from CloudWatch, you may want this config:
+```
+{
+  "extends": ["@clausehq/eslint-config"],
+  "rules": {
+    "no-console": "off"
+  }
+}
+```
+
 Optionally add a file called `.eslintignore`, here are some suggested contents
 ```
 coverage
