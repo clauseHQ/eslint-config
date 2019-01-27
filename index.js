@@ -1,21 +1,29 @@
 module.exports = {
 
-  "extends": ["loopback", "airbnb/base"],
+  "extends": ["loopback", "airbnb/base", "plugin:jest/recommended"],
   "root": true,
   "rules": {
-    "consistent-return": 0,
-    "no-underscore-dangle": 0,
-    "no-param-reassign": 0,
-    "no-unused-expressions": 0,
-    "prefer-destructuring": 0,
-    "prefer-promise-reject-errors": 0,
-    "no-underscore-dangle": 0,
-    "class-methods-use-this": 0,
+    "consistent-return": "warn",
+    "no-underscore-dangle": "warn",
+    "no-param-reassign": "warn", 
+    "no-unused-expressions": "warn",
+    "prefer-destructuring": ["warn", {
+      "VariableDeclarator": {
+        "array": false,
+        "object": true
+      },
+      "AssignmentExpression": {
+        "array": false,
+        "object": false
+      }
+    }],
+    "prefer-promise-reject-errors": "warn",
+    "class-methods-use-this": "warn",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "import/first": 0,
-    "import/no-extraneous-dependencies": 0,
-    "import/no-unresolved": 0,
-    "import/extensions": 0,
+    "import/first": "warn",
+    "import/no-extraneous-dependencies": "warn",
+    "import/no-unresolved": "warn",
+    "import/extensions": "warn",
     "react/require-default-props": 0,
     "import/prefer-default-export": 0,
     "react/jsx-filename-extension": 0,
@@ -28,7 +36,16 @@ module.exports = {
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-to-interactive-role": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
-    "jsx-a11y/label-has-for": 0
+    "jsx-a11y/label-has-for": 0,
+    "require-jsdoc": [0, {
+      "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": false,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": false,
+          "FunctionExpression": false
+      }
+  }]
   },
   "env": {
     "es6": true,
@@ -36,7 +53,7 @@ module.exports = {
     "jest/globals": true
   },
   "plugins": [
-    "jest"
+    "jest",
   ]
 
 };
