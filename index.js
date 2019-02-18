@@ -1,6 +1,6 @@
 module.exports = {
 
-  "extends": ["loopback", "airbnb/base", "plugin:jest/recommended"],
+  "extends": ["loopback", "airbnb/base", "plugin:jest/recommended", "plugin:react/recommended"],
   "root": true,
   "rules": {
     "consistent-return": "warn",
@@ -50,7 +50,19 @@ module.exports = {
   "env": {
     "es6": true,
     "node": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
   },
   "plugins": [
     "jest",
