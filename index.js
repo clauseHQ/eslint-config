@@ -53,17 +53,6 @@ module.exports = {
     "jest/globals": true,
     "browser": true
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"],
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    },
-    "react": {
-      "version": "detect"
-    }
-  },
   "plugins": [
     "jest",
   ]
