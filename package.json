@@ -1,13 +1,13 @@
 {
   "name": "@clausehq/eslint-config",
-  "version": "0.1.3",
-  "description": "Reuseable eslint config for Clause Node.js projects",
+  "version": "0.1.4",
+  "description": "Reuseable eslint config. Created by Clause.io",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clauseHQ/eslint-config.git"
   },
-  "author": "matt@clause.io",
+  "author": "clause.io",
   "bugs": {
     "url": "https://github.com/clauseHQ/eslint-config/issues"
   },

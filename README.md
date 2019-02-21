@@ -1,4 +1,4 @@
-A set of reuseable linting rules for Clause Node.js repositories
+A set of reuseable eslint linting rules used by Clause.io. Feel free to use these for your own projects.
 
 ## Usage
 
