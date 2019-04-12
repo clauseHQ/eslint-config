@@ -1,6 +1,6 @@
 {
   "name": "@clausehq/eslint-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Reuseable eslint config. Created by Clause.io",
   "main": "index.js",
   "repository": {

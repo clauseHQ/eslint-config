@@ -37,7 +37,7 @@ module.exports = {
     "jsx-a11y/no-noninteractive-element-to-interactive-role": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "jsx-a11y/label-has-for": 0,
-    "require-jsdoc": [0, {
+    "require-jsdoc": ["warn", {
       "require": {
           "FunctionDeclaration": true,
           "MethodDefinition": false,
