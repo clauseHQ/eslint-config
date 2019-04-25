@@ -3,6 +3,9 @@ module.exports = {
   "extends": ["loopback", "airbnb/base", "plugin:jest/recommended", "plugin:react/recommended"],
   "root": true,
   "rules": {
+    "comma-dangle": 0,
+    "no-shadow": 0,
+    "no-underscore-dangle": 0,
     "consistent-return": "warn",
     "no-underscore-dangle": "warn",
     "no-param-reassign": "warn", 
