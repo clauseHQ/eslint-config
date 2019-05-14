@@ -48,7 +48,9 @@ module.exports = {
           "ArrowFunctionExpression": false,
           "FunctionExpression": false
       }
-  }]
+    }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "env": {
     "es6": true,
@@ -58,6 +60,7 @@ module.exports = {
   },
   "plugins": [
     "jest",
+    "react-hooks"
   ]
 
 };
