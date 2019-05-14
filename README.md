@@ -5,7 +5,7 @@ A set of reuseable eslint linting rules used by Clause.io. Feel free to use thes
 Install this package and it's peer dependencies
 ```
 yarn add -D @clausehq/eslint-config
-yarn add -D eslint eslint-config-airbnb eslint-config-loopback eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks
+yarn add -D eslint eslint-config-airbnb eslint-config-loopback eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 Create a file in the root of your repo called `.eslintrc` with the contents
