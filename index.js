@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb/base', 'plugin:jest/recommended', 'plugin:react/recommended'],
+  extends: ['airbnb/base', 'plugin:jest/recommended', 'plugin:react/recommended',],
   root: true,
   rules: {
     'no-param-reassign': 0,
@@ -56,7 +56,7 @@ module.exports = {
       }
     }],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
   },
   env: {
     es6: true,
@@ -66,7 +66,7 @@ module.exports = {
   },
   plugins: [
     'jest',
-    'react-hooks'
+    'react-hooks',
   ],
   settings: {
     react: {
