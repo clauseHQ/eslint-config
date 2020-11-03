@@ -1,6 +1,9 @@
 module.exports = {
   extends: ['airbnb/base', 'plugin:jest/recommended', 'plugin:react/recommended',],
   root: true,
+  parserOptions: {
+    ecmaVersion: 2020
+  },
   rules: {
     'no-param-reassign': 0,
     'arrow-parens': 0,

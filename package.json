@@ -1,24 +1,24 @@
 {
   "name": "@clausehq/eslint-config",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Reuseable eslint config. Created by Clause.io",
-  "main": "index.js",
+  "author": "Clause Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clauseHQ/eslint-config.git"
   },
-  "author": "clause.io",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/clauseHQ/eslint-config/issues"
   },
   "homepage": "https://github.com/clauseHQ/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.0"
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
